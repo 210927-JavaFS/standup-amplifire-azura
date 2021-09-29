@@ -4,4 +4,6 @@ Jeron DuHart
 Luis Yera
 Karl Model
 Felton McCarty
-merge conflict practice
+
+conflict resolved
+by commit, then pull, then nano, finally push
