@@ -1,6 +1,7 @@
-Xuanwei Li | merge conflict practice
+Xuanwei Li
 Matt Jordan
 Jeron DuHart
 Luis Yera
 Karl Model
 Felton McCarty
+merge conflict practice
