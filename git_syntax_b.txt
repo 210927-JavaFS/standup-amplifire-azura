@@ -1,0 +1,88 @@
+
+
+... pull remote repository for the first time
+
+AlgoGrace@DESKTOP-P00LBRS MINGW64 ~/Documents/_demos/demos (main)
+
+  119  git clone https://github.com/210927-JavaFS/demos.git
+  120  ls -la
+  121  cd de*
+  122  ls -la
+  123  git pull
+  124  git status
+  125  history
+
+... switch to a different branch
+
+AlgoGrace@DESKTOP-P00LBRS MINGW64 ~/Documents/_wks_STS_001a
+
+   17  git clone https://github.com/210927-JavaFS/standup-amplifire-azura.git
+   18  ls -la
+   19  cd stand*
+   20  ls -la
+   21  cd ..
+   22  ls -la
+   23  cd stand*
+   24  ls -la
+   25  cd .git
+   26  ls -la
+   27  cd ..
+   28  ls -la
+   29  cd ..
+   30  ls -la
+   31  git pull
+   32  ls -la
+   33  git pull
+   34  git pull https://github.com/210927-JavaFS/standup-amplifire-azura.git (this pulls the wrong branch because switch command was not yet issued as below)
+   35  cd stand*
+   36  git pull
+   37  ls -la
+   38  cd .git
+   39  ls -la
+   40  cd ..
+   41  ls -la
+   42  git pull
+   43  ls -la
+   44  cd .git
+   45  ls -la
+   46  cd obj*
+   47  ls -la
+   48  cd ..
+   49  ls -la
+   50  git pull
+   51  cd ..
+   52  git pull
+   53  ls -la
+   54  git stash
+   55  git pull
+   56  git pull
+   57  ls -la
+   58  cd ..
+   59  git switch names
+   60  cd sta*
+   61  git switch names
+
+
+... push local repository after edits
+
+AlgoGrace@DESKTOP-P00LBRS MINGW64 ~/Documents/_wks_STS_001a
+
+   69  git config --global user.email "karl@trading45.com"
+   70  git pull
+   71  git status
+   72  nano names
+   73  nano names.txt
+   74  git commit
+   75  git add .
+   76  git commit -m "added my name"
+   77  git push
+   78  history
+   79  ls -la
+   80  history
+   81  ls -la
+   82  cd Doc*
+   83  ls -la
+   84  cd _wks_STS_p*
+
+
+
