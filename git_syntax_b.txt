@@ -1,12 +1,43 @@
 
+### 1210929b:
+
+GIT practice
+
+-create working directory on local drive
+-use Bash shell to cd into working directory
+
+-git clone (repository url)
+
+-(issue subsequent commands from inside local repository in Bash)
+
+-wait for branch to be created by team member
+-git switch names (branch name)
+
+git config --global user.email "karl@trading45.com"
+
+-git pull
+-git status
+
+nano names.txt = edit "names.txt" file
+-nano syntax: ctrl + o = save (enter)
+-nano syntax: ctrl + x = exit
+
+git add .
+git commit -m "added my name" (w/o -m arg, a text editor such as Vi or Vim will automatically launch. Use cmd "wq" for write, quit to exit Vi)
+git push 
+
+### examples:
 
 ... pull remote repository for the first time
 
-AlgoGrace@DESKTOP-P00LBRS MINGW64 ~/Documents/_demos/demos (main)
+AlgoGrace@DESKTOP-P00LBRS MINGW64 ~/Documents/_demos (main)
 
   119  git clone https://github.com/210927-JavaFS/demos.git
   120  ls -la
-  121  cd de*
+  121  cd _de*
+
+AlgoGrace@DESKTOP-P00LBRS MINGW64 ~/Documents/_demos/demos (main)
+
   122  ls -la
   123  git pull
   124  git status
